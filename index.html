@@ -1,435 +1,171 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>
-	   Hemal Patel 
-    </title>
- 
-    <meta name="author" content="HEMAL PATEL " />
-    <meta name="keywords" content="" />
- 	<meta name="description" content="" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    
-    <!-- CSS -->
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
-	
-	 <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	
-	<!-- JAVASCRIPT -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/verticalscroller.js"></script>
-	<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
-	<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
-	<script type="text/javascript" src="js/contact_form.js"></script>
-	
-	<!-- We only want the thunbnails to display when javascript is disabled -->
-	<script type="text/javascript" src="js/noscript.js"></script>
-	
-</head>
-<body>
-	<!-- CONTAINER -->
-	<div class="container">
-		
-		<!-- LOGO + NAV  -->
-		<div class="logo" id="top">
-			<img src="images/logo.gif" alt="logo" />
-		</div>
-		
-		<div class="TopNavigation">
-			<ul class="nav">
-				<li class="active">Home</li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-			
-			<div class="social">
-				<a href="#"><img src="images/icons/twitter.gif" alt="Read my tweets" /></a>
-				<a href="#"><img src="images/icons/feed.gif" alt="Subscribe feed" /></a>
-				<a href="#"><img src="images/icons/mail.gif" alt="Send a message" /></a>
-			</div>
-		</div>
-		<!-- END LOGO + NAV  -->
-		
-		<!-- SLIDER -->	
-		<div id="slider"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this rotator.</div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hemal Patel</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
 
-		<script type="text/javascript" src="http://www.yourinspirationweb.com/WhiteFolio/swfobject.js"></script>
-		<script type="text/javascript">
-			var s1 = new SWFObject("http://www.yourinspirationweb.com/WhiteFolio/imagerotator.swf","rotator","940","368","7");
-			s1.addVariable("file","http://www.yourinspirationweb.com/WhiteFolio/madrid.xml");
-			s1.addVariable("width","940");
-			s1.addVariable("height","368");
-			s1.addVariable("transition","blocks");
-			s1.addVariable("shownavigation","false");
-			s1.addParam("wmode","opaque");
-			s1.write("slider");
-		</script>
-		<br/>
-		<img src="images/shadow.gif" alt="" class="shadow"/>
-		<!-- END SLIDER -->
+		<!-- Header -->
+			<header id="header">
 
-		<!-- ABOUT  -->
-		<div id="about">
-			
-			<!-- START CONTAINER ABOUT -->
-			<div id="containerAbout">
-
-				<!-- DESCRIPTION -->
-				<div class="leftAbout">
+				<!-- Logo -->
+					<h1 id="logo"><a href="#">Hemal Patel</a></h1>
 				
-					<h2>About</h2>
-				
-					<p>
-						Hi, my name is Hemal Patel, and I will fill more in here once I finish :)
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro">Intro</a></li>
+							<li><a href="#one">What I Do</a></li>
+							<li><a href="#two">Who I Am</a></li>
+							<li><a href="#work">My Work</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+
+			</header>
+			
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content container small">
+					<header>
+						<h2>Hemal Patel</h2>
+					</header>
+					<p>Student | Software Developer | Analyst </p>
+					<p>I am currently study Computer Science and Business Administration at 
+					   <a href="http://www.uwaterloo.ca">The University of Waterloo</a>, and <a href="http://wlu.ca">Wilfred Laurier University</a>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+		
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>I will fill this in eventually</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+		
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>Working on filling this out too!</p> 
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+			
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content container">
+					<header>
+						<h2>My Work</h2>
+						<p>I am interested in web and application development and various platforms and other things I will add soon enough</p>
+					</header>
 					
-					</p>
+					<!--
+						 Lightbox Gallery
+						 
+						 Powered by poptrox. Full docs here: https://github.com/n33/jquery.poptrox
+					-->
+						<div class="container small gallery">
+							<div class="row flush images">
+								<div class="6u"><a href="images/fulls/01.jpg" class="image full l"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/02.jpg" class="image full r"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
+							</div>
+							<div class="row flush images">
+								<div class="6u"><a href="images/fulls/03.jpg" class="image full l"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/04.jpg" class="image full r"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
+							</div>
+							<div class="row flush images">
+								<div class="6u"><a href="images/fulls/05.jpg" class="image full l"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
+								<div class="6u"><a href="images/fulls/06.jpg" class="image full r"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
+							</div>
+						</div>
+
+				</div>
+			</section>
+			
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content container">
+					<header>
+						<h2>Say Hello.</h2>
+						<p>You can't contact me yet, as I am still working out the kinks!</p>
+					</header>
+					<div class="box container small">
 					
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor blandit ante vitae semper. 
-					</p>
-				
+						<!--
+							 Contact Form
+							 
+							 To get this working, place a script on your server to receive the form data, then
+							 point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
+							 More on how it all works here: http://www.1stwebdesigner.com/tutorials/custom-php-contact-forms/
+						-->
+							<form method="post" action="#">
+								<div class="row half">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row half">
+									<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" class="button" value="Send Message" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+
+					</div>
 				</div>
-				<!-- END DESCRIPTION -->
-				
-				
-				<div class="clearer"></div>
-			</div>
-			<!-- END CONTAINER ABOUT -->
-				
-			<!-- SKILLS -->
-			<div id="skills">
-				<ul>
-					<li>Java</li>
-					<li>C++</li>
-					<li>Html/CSS</li>
-					<li>MySQL</li>
-					<li>Python</li>
-					<li>RubyonRails</li>
-				</ul>
-			</div>
-			<!-- END SKILLS -->
-		</div>
-		<!-- END ABOUT  -->
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+			
+				<!--
+				     Social Icons
+				     
+				     Use anything from here: http://fortawesome.github.io/Font-Awesome/cheatsheet/)
+				-->
+					<ul class="actions">
+						<li><a href="#" class="fa solo fa-twitter"><span>Twitter</span></a></li>
+						<li><a href="#" class="fa solo fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="#" class="fa solo fa-google-plus"><span>Google+</span></a></li>
+						<li><a href="#" class="fa solo fa-dribbble"><span>Dribbble</span></a></li>
+						<li><a href="#" class="fa solo fa-pinterest"><span>Pinterest</span></a></li>
+						<li><a href="#" class="fa solo fa-instagram"><span>Instagram</span></a></li>
+					</ul>
 
-		<!-- PORTFOLIO  -->
-		<div id="portfolio">
-			<!-- LOGO + NAV  -->
-			<div class="TopNavigation">
-				<ul class="nav">
-					<li><a href="#top">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li class="active">Portfolio</li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Untitled</li>
+						<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+					</ul>
 			
-				<div class="social">
-					<a href="#"><img src="images/icons/twitter.gif" alt="Read my tweets" /></a>
-					<a href="#"><img src="images/icons/feed.gif" alt="Subscribe feed" /></a>
-					<a href="#"><img src="images/icons/mail.gif" alt="Send a message" /></a>
-				</div>
-			</div>
-			<!-- END LOGO + NAV  -->
+			</footer>
 
-			<h2>Portfolio</h2>
-			
-			<p>
-				This section includes some of the work that I have done.
-			</p>
-	
-			<!-- PORTFOLIO GALLERY -->
-			<div id="gallery" class="content">
-				
-				<div class="slideshow-container">
-					<div id="loading" class="loader"></div>
-					<div id="slideshow" class="slideshow"></div>
-				</div>
-	
-				<div id="caption" class="caption-container"></div>
-			</div>
-	
-			<div id="thumbs" class="navigation">
-				<ul class="thumbs noscript">
-					<li>
-						<a class="thumb" href="images/portfolio/005.big.jpg" title="Title #0">
-							<img src="images/portfolio/005.small.jpg" alt="Title #0" />
-						</a>
-						<div class="caption">
-							<div class="image-title">My Brochure</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/002.big.jpg" title="Title #1">
-							<img src="images/portfolio/002.small.jpg" alt="Title #1" />
-						</a>
-						<div class="caption">
-							<div class="image-title">My Portfolio</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/003.big.jpg" title="Title #2">
-							<img src="images/portfolio/003.small.jpg" alt="Title #2" />
-						</a>
-						<div class="caption">
-							<div class="image-title">Work #1</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/004.big.jpg" title="Title #3">
-							<img src="images/portfolio/004.small.jpg" alt="Title #3" />
-	
-						</a>
-						<div class="caption">
-							<div class="image-title">Work #2</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/001.big.jpg" title="Title #4">
-							<img src="images/portfolio/001.small.jpg" alt="Title #4" />
-						</a>
-						<div class="caption">
-							<div class="image-title">Work #3</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>		
-						</div>
-					</li>
-	
-					<li>
-	
-						<a class="thumb" href="images/portfolio/006.big.jpg" title="Title #5">
-							<img src="images/portfolio/006.small.jpg" alt="Title #5" />
-						</a>
-						<div class="caption">
-							<div class="image-title">Work #4</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/007.big.jpg" title="Title #6">
-							<img src="images/portfolio/007.small.jpg" alt="Title #6" />
-						</a>
-						<div class="caption">
-							<div class="image-title">Work #5</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/002.big.jpg" title="Title #7">
-							<img src="images/portfolio/002.small.jpg" alt="Title #7" />
-						</a>
-						<div class="caption">
-							<div class="image-title">Work #6</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/003.big.jpg" title="Title #8">
-							<img src="images/portfolio/003.small.jpg" alt="Title #8" />
-	
-						</a>
-						<div class="caption">
-							<div class="image-title">My Business Card</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/004.big.jpg" title="Title #9">
-							<img src="images/portfolio/004.small.jpg" alt="Title #9" />
-						</a>
-						<div class="caption">
-							<div class="image-title">My Business Card</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-	
-						<a class="thumb" href="images/portfolio/005.big.jpg" title="Title #10">
-							<img src="images/portfolio/005.small.jpg" alt="Title #10" />
-						</a>
-						<div class="caption">
-							<div class="image-title">My Business Card</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/006.big.jpg" title="Title #11">
-							<img src="images/portfolio/006.small.jpg" alt="Title #11" />
-						</a>
-						<div class="caption">
-							<div class="image-title">My Business Card</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-	
-					<li>
-						<a class="thumb" href="images/portfolio/003.big.jpg" title="Title #12">
-							<img src="images/portfolio/003.small.jpg" alt="Title #12" />
-						</a>
-						<div class="caption">
-							<div class="image-title">My Business Card</div>
-							<div class="image-desc">Inserisci qui una breve descrizione del progetto di cui sopra.</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<!-- END THUMB -->
-	
-			<div style="clear: both;"></div>
-			
-			
-		</div>
-		<!-- END PORTFOLIO GALLERY -->
-	
-		<!-- CONTACT  -->
-		<div id="contact">
-	
-			<h2>Contact</h2>
-	
-			<p>
-				Sentiti libero di contattarmi quando vuoi per un preventivo gratuito, per richiedere qualsiasi informazione sulla mia
-				metodologia di lavoro, o anche solo per farmi sapere che sei passato di qua. Utilizza il seguente modulo o, se preferisci, uno
-				recapiti contrassegnati in questa pagina. Ti rispondero' appena possibile!
-			</p>
-			
-			<!-- FORM -->
-			<div id="form">
-				<form id="ajax-contact-form" action="javascript:alert('success!');">
-					<fieldset class="info_fieldset">
-						<div id="note"></div>
-						<div id="fields">
-							<label>Nome</label><input class="textbox" type="text" name="name" value="" /><br />
-							<label>E-Mail</label><input class="textbox" type="text" name="email" value="" /><br />
-							<label>Oggetto</label><input class="textbox" type="text" name="subject" value="" /><br />
-							<label>Messaggio</label><textarea class="textbox2" name="message" rows="5" cols="25"></textarea><br />
-							<label>&nbsp;</label><input class="button" type="image" src="images/send.gif" id="submit" value="Send Message" />	
-						</div>
-					</fieldset>
-				</form>
-			</div>
-			<!-- END FORM -->
-			
-			<!-- CONTACT INFO -->
-			<div id ="contactInfo">
-				<p>
-					Contattami attraverso uno dei seguenti social network:
-				</p>
-				
-				<p>
-					<span class="bolder">Twitter</span>  [mascaradesign]
-				</p>
-				
-				<p>
-					<span class="bolder">FaceBook</span>  [Tizia Caio]
-				</p>
-				
-				<p>
-					<span class="bolder">Skype</span>  [mascarad]
-				</p>
-				
-				<p>
-					O, se preferisci, contattami telefonicamente:
-				</p>
-				
-				<p class="bolder">
-					392/0123456
-				</p>
-				
-				<p>
-					Ricordati che puoi richiedere un <strong>preventivo gratuito e senza impegno</strong> per la realizzazione
-					o il restyling del tuo sito web. Contattami subito!
-				</p>
-			
-			</div>
-			<!-- END CONTACT INFO -->
-			
-			<div class="clearer"></div>
-		</div>
-		<!-- END CONTACT  -->
-	
-		<!-- FOOTER  -->
-		<p class="footer">
-			Copyright &copy; 2010 White Portfolio. All Rights Reserved. Made by <a href="http://www.mascaradesign.it">Mascara Design</a> 
-			for <a href="http://www.yourinspirationweb.com/en"> Your Inspiration Web.</a>
-		</p>
-		<!-- END FOOTER -->
-		
-	</div>
-	<!-- END CONTAINER -->
-
-						
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-	// We only want these styles applied when javascript is enabled
-	$('div.navigation').css({'width' : '300px', 'float' : 'left'});
-	$('div.content').css('display', 'block');
-
-	// Initially set opacity on thumbs and add
-	// additional styling for hover effect on thumbs
-	var onMouseOutOpacity = 0.67;
-	$('#thumbs ul.thumbs li').opacityrollover({
-		mouseOutOpacity:   onMouseOutOpacity,
-		mouseOverOpacity:  1.0,
-		fadeSpeed:         'fast',
-		exemptionSelector: '.selected'
-	});
-	
-	// Initialize Advanced Galleriffic Gallery
-	var gallery = $('#thumbs').galleriffic({
-		delay:                     2500,
-		numThumbs:                 15,
-		preloadAhead:              10,
-		enableTopPager:            true,
-		enableBottomPager:         true,
-		maxPagesToShow:            7,
-		imageContainerSel:         '#slideshow',
-		controlsContainerSel:      '#controls',
-		captionContainerSel:       '#caption',
-		loadingContainerSel:       '#loading',
-		renderSSControls:          true,
-		renderNavControls:         true,
-		playLinkText:              'Play Slideshow',
-		pauseLinkText:             'Pause Slideshow',
-		prevLinkText:              '&lsaquo; Previous Photo',
-		nextLinkText:              'Next Photo &rsaquo;',
-		nextPageLinkText:          'Next &rsaquo;',
-		prevPageLinkText:          '&lsaquo; Prev',
-		enableHistory:             false,
-		autoStart:                 false,
-		syncTransitions:           true,
-		enableKeyboardNavigation:  false,
-		defaultTransitionDuration: 900,
-		onSlideChange:             function(prevIndex, nextIndex) {
-			// 'this' refers to the gallery, which is an extension of $('#thumbs')
-			this.find('ul.thumbs').children()
-				.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
-				.eq(nextIndex).fadeTo('fast', 1.0);
-		},
-		onPageTransitionOut:       function(callback) {
-			this.fadeTo('fast', 0.0, callback);
-		},
-		onPageTransitionIn:        function() {
-			this.fadeTo('fast', 1.0);
-		}
-	});
-});
-</script>
-	
-
-</body>
+	</body>
 </html>
